@@ -1,16 +1,18 @@
-GET http://localhost:3001/api/notes
+@baseUrl = https://secure-shelf-79053.herokuapp.com/api/notes
+
+GET {{baseUrl}}
 
 ###
 
-GET http://localhost:3001/api/notes/5
+GET {{baseUrl}}/1
 
 ###
 
-DELETE http://localhost:3001/api/notes/1
+DELETE {{baseUrl}}/4
 
 ###
 
-POST http://localhost:3001/api/notes
+POST {{baseUrl}}
 Content-Type: application/json
 
 {
