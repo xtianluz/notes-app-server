@@ -9,6 +9,7 @@ app.use(morgan(`${morganFormat} :body`))
 
 app.use(cors())
 
+app.use(express.static('build'))
 app.use(express.json())
 
 let notes = [
