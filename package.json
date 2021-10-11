@@ -7,8 +7,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \\Error: no test specified\\ && exit 1",
-    "logs": "rm -r build && cd D:/React/Side Exercises/Part II/notes-app/build && npm run build && cp -r build D:/React/Side Exercises/Hello World",
-    "build": "cd D:/React/Side Exercises/Part II/notes-app/ && npm run build"
+    "logs": "cd D:/React/Side Exercises/Part II/notes-app/ && npm run build"
   },
   "keywords": [],
   "author": "Christian",
